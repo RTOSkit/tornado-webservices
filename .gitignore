@@ -12,3 +12,5 @@ virtenv/
 dist/
 build/
 tornadows.egg-info/
+tornado_webservices.egg-info/
+EGG-INFO/
