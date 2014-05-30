@@ -34,6 +34,7 @@ class SoapMessage:
 	def __init__(self):
 		self._soap = xml.dom.minidom.Document()
 		envurl = 'http://schemas.xmlsoap.org/soap/envelope/'
+		#envurl = 'http://www.w3.org/2003/05/soap-envelope'
 		self._envelope = self._soap.createElementNS(envurl, 'soapenv:Envelope')
 		self._envelope.setAttribute('xmlns:soapenv', envurl)
 		self._envelope.setAttribute('xmlns:xsi',
